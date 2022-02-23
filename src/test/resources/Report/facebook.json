@@ -1,0 +1,81 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 22346843100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Launch fb Application",
+            "match": {
+              "location": "Facebook.user_Launch_fb_Application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-23T05:46:01.699Z",
+        "line": 6,
+        "name": "Validation of Login page with Invalid Credientials",
+        "description": "",
+        "id": "validation-of-fb-login-page;validation-of-login-page-with-invalid-credientials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 726147200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Enters UserName and passWord",
+            "match": {
+              "location": "Facebook.user_Enters_UserName_and_passWord()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 172152700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Clicks Login Page",
+            "match": {
+              "location": "Facebook.clicks_Login_Page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20092594700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Error Page Should be Displayed",
+            "match": {
+              "location": "Facebook.error_Page_Should_be_Displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validation of Fb Login page",
+    "description": "",
+    "id": "validation-of-fb-login-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/facebook.feature",
+    "tags": []
+  }
+]
